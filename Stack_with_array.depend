@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1657825860 source:c:\users\assassin\desktop\c&c++_hub\stack_with_array\main.c
+1659470757 source:c:\users\assassin\desktop\c&c++_hub\stack_with_array\main.c
 	<stdio.h>
 	<stdlib.h>
+	<stdbool.h>
 

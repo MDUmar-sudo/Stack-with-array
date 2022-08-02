@@ -26,12 +26,12 @@ int main()
     s->arr = (int *)malloc(s->size*sizeof(int));
     int choice;
     printf("-----------------------------\n");
-    printf("STACKING [LIFO] USING ARRAYS\n");
+    printf("STACKING USING ARRAYS\n");
     printf("-----------------------------\n");
 
   do{
     printf("____________________________");
-    printf("\nSTACK SORT OPERATIONS\n(1)PUSH\n(2)POP\n(3)DISPLAY\n(4)PEEK\n(5)EXIT\n");
+    printf("\nCHOOSE A STACK OPERATION\n\n(1)PUSH\n(2)POP\n(3)DISPLAY\n(4)PEEK\n(5)EXIT\n");
     printf("____________________________");
 
     printf("\nENTER YOUR CHOICE :");
@@ -51,12 +51,13 @@ int main()
     case 4: peek(s);
              break;
 
-    case 5: printf("\nEXIT");
+    case 5: printf("\nEXIT\n");
+            break;
 
     default: printf("\nINVALID CHOICE!!\nPLEASE ENTER A VALID OPTION\n");
 
     }
-  }while(choice!=0);
+  }while(choice!=5);
 
   getch();
   return 0;
